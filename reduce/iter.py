@@ -1,10 +1,10 @@
 def main():
-    output = list()
-    for x in range(0,100000000):
-        output.append(x**2)
-    return output
+    result = 0
+    for x in range(0, 10**7):
+        result += x**2
+    return result
 
 
 if __name__ == "__main__":
     result = main()
-    print(result[-1])
+    print(result)

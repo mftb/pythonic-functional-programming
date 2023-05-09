@@ -3,7 +3,7 @@ def square(x):
 
 
 def main():
-    return list(map(square, range(0,100000000)))
+    return list(map(square, range(0, 10**7)))
 
 
 if __name__ == "__main__":

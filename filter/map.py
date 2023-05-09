@@ -7,7 +7,7 @@ def is_even(x):
 
 
 def main():
-    return list(map(square, filter(is_even, range(0,100000000))))
+    return list(map(square, filter(is_even, range(0, 10**7))))
 
 
 if __name__ == "__main__":
