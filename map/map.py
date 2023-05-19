@@ -1,9 +1,9 @@
 def square(x):
-    return x**2
+    return x*x
 
 
 def main():
-    return list(map(square, range(0, 10**7)))
+    return list(map(square, range(0, 10**8)))
 
 
 if __name__ == "__main__":

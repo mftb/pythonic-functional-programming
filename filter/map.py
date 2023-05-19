@@ -1,5 +1,5 @@
 def square(x):
-    return x**2
+    return x*x
 
 
 def is_even(x):
@@ -7,7 +7,7 @@ def is_even(x):
 
 
 def main():
-    return list(map(square, filter(is_even, range(0, 10**7))))
+    return list(map(square, filter(is_even, range(0, 10**8))))
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 def main():
-    return [x**2 for x in range(0, 10**7) if (x % 2) == 0]
+    return [x*x for x in range(0, 10**8) if (x % 2) == 0]
 
 
 if __name__ == "__main__":

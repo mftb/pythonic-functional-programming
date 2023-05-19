@@ -1,7 +1,7 @@
 def main():
     output = list()
-    for x in range(0, 10**7):
-        output.append(x**2)
+    for x in range(0, 10**8):
+        output.append(x*x)
     return output
 
 

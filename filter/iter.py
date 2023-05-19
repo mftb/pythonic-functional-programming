@@ -1,9 +1,9 @@
 def main():
-    output = list()
-    for x in range(0, 10**7):
+    even_squares = list()
+    for x in range(0, 10**8):
         if (x % 2) == 0:
-            output.append(x**2)
-    return output
+            even_squares.append(x*x)
+    return even_squares
 
 
 if __name__ == "__main__":
