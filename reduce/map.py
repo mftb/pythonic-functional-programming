@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-def sum(x, y):
+def add(x, y):
     return x + y
 
 
@@ -10,7 +10,7 @@ def square(x):
 
 
 def main():
-    return reduce(sum, list(map(square, range(0, 10**8))), 0)
+    return reduce(add, map(square, range(0, 10**8)), 0)
 
 
 if __name__ == "__main__":

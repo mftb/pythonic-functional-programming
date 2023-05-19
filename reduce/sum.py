@@ -6,7 +6,7 @@ def square(x):
 
 
 def main():
-    return sum(list(map(square, range(0, 10**8))))
+    return sum(map(square, range(0, 10**8)))
 
 
 if __name__ == "__main__":
