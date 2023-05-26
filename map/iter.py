@@ -1,8 +1,8 @@
 def main():
-    output = list()
+    squares = list()
     for x in range(0, 10**8):
-        output.append(x*x)
-    return output
+        squares.append(x*x)
+    return squares
 
 
 if __name__ == "__main__":

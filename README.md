@@ -38,7 +38,7 @@ Guido: I'm not a fan of religiously taking some idea to the extreme, and I try t
 [Source](https://developers.slashdot.org/story/13/08/25/2115204/interviews-guido-van-rossum-answers-your-questions)
 
 ## Why are list comprehensions faster in Python?
-We have several sources on the reasons why list comprehensions outperform map() and might outperform for loops. Please check them out:
+We have several sources on the reasons why list comprehensions outperform `map()` and might outperform `for` loops. Please check them out:
 
 * [Which is Faster: List Comprehension or Map Function in Python?](https://blog.finxter.com/which-is-faster-list-comprehension-or-map-function-in-python/)
 * [Are list-comprehensions and functional functions faster than "for loops"?](https://stackoverflow.com/questions/22108488/are-list-comprehensions-and-functional-functions-faster-than-for-loops)
