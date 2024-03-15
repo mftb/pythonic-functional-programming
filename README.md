@@ -5,6 +5,7 @@ Pythonic Functional Programming: List Comprehensions
 In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions.
 
 [Wikipedia article](https://en.wikipedia.org/wiki/Functional_programming)
+
 ## Map
 Map is a high-order function that receives another function and a collection as input and applies that function to each element in the collection, returning a new collection.
 
